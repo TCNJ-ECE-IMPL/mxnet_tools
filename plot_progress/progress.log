@@ -1,0 +1,529 @@
+INFO:root:Network Training Configuration:
+INFO:root:{
+    "batch_size": 32,
+    "checkpoint_path": "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint/",
+    "color": 3,
+    "image_resolution": 256,
+    "learning": {
+        "rate": 0.01,
+        "type": "adadelta"
+    },
+    "name": "GW_5 (resnet18)",
+    "network": {
+        "layers": 18,
+        "type": "resnet"
+    },
+    "num_classes": 5,
+    "num_epochs": 30,
+    "slack": {
+        "url": "https://hooks.slack.com/services/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"
+    },
+    "train_db_path": "/home/media/GrassWeed/dbPNG_GW5/GW5_train.rec",
+    "val_db_path": "/home/media/GrassWeed/dbPNG_GW5/GW5_val.rec",
+    "verbose": false
+}
+INFO:root:Network Training Configuration:
+INFO:root:{
+    "batch_size": 32,
+    "checkpoint_path": "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint/",
+    "color": 3,
+    "image_resolution": 256,
+    "learning": {
+        "rate": 0.01,
+        "type": "adadelta"
+    },
+    "name": "GW_5 (resnet18)",
+    "network": {
+        "layers": 18,
+        "type": "resnet"
+    },
+    "num_classes": 5,
+    "num_epochs": 30,
+    "slack": {
+        "url": "https://hooks.slack.com/services/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"
+    },
+    "train_db_path": "/home/media/GrassWeed/dbPNG_GW5/GW5_train.rec",
+    "val_db_path": "/home/media/GrassWeed/dbPNG_GW5/GW5_val.rec",
+    "verbose": false
+}
+INFO:root:Epoch[0] Train-accuracy=0.965943
+INFO:root:Epoch[0] Train-loss=0.200000
+INFO:root:Epoch[0] Train-cross-entropy=0.095634
+INFO:root:Epoch[0] Train-mae=1.879037
+INFO:root:Epoch[0] Train-mse=5.390785
+INFO:root:Epoch[0] Train-rmse=2.312893
+INFO:root:Epoch[0] Time cost=620.701
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0001.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[0] Validation-accuracy=0.999484
+INFO:root:Epoch[0] Validation-loss=0.200000
+INFO:root:Epoch[0] Validation-cross-entropy=0.002194
+INFO:root:Epoch[0] Validation-mae=1.882265
+INFO:root:Epoch[0] Validation-mse=5.401718
+INFO:root:Epoch[0] Validation-rmse=2.315215
+INFO:root:Epoch[1] Train-accuracy=0.998754
+INFO:root:Epoch[1] Train-loss=0.200000
+INFO:root:Epoch[1] Train-cross-entropy=0.004280
+INFO:root:Epoch[1] Train-mae=1.878951
+INFO:root:Epoch[1] Train-mse=5.398397
+INFO:root:Epoch[1] Train-rmse=2.314200
+INFO:root:Epoch[1] Time cost=621.324
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0002.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[1] Validation-accuracy=0.999769
+INFO:root:Epoch[1] Validation-loss=0.200000
+INFO:root:Epoch[1] Validation-cross-entropy=0.000759
+INFO:root:Epoch[1] Validation-mae=1.882334
+INFO:root:Epoch[1] Validation-mse=5.402297
+INFO:root:Epoch[1] Validation-rmse=2.315448
+INFO:root:Epoch[2] Train-accuracy=0.999371
+INFO:root:Epoch[2] Train-loss=0.200000
+INFO:root:Epoch[2] Train-cross-entropy=0.002188
+INFO:root:Epoch[2] Train-mae=1.879057
+INFO:root:Epoch[2] Train-mse=5.398953
+INFO:root:Epoch[2] Train-rmse=2.314478
+INFO:root:Epoch[2] Time cost=621.150
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0003.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[2] Validation-accuracy=0.999911
+INFO:root:Epoch[2] Validation-loss=0.200000
+INFO:root:Epoch[2] Validation-cross-entropy=0.000310
+INFO:root:Epoch[2] Validation-mae=1.882338
+INFO:root:Epoch[2] Validation-mse=5.402247
+INFO:root:Epoch[2] Validation-rmse=2.315319
+INFO:root:Epoch[3] Train-accuracy=0.999623
+INFO:root:Epoch[3] Train-loss=0.200000
+INFO:root:Epoch[3] Train-cross-entropy=0.001395
+INFO:root:Epoch[3] Train-mae=1.879002
+INFO:root:Epoch[3] Train-mse=5.398875
+INFO:root:Epoch[3] Train-rmse=2.314537
+INFO:root:Epoch[3] Time cost=622.571
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0004.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[3] Validation-accuracy=0.999822
+INFO:root:Epoch[3] Validation-loss=0.200000
+INFO:root:Epoch[3] Validation-cross-entropy=0.000565
+INFO:root:Epoch[3] Validation-mae=1.882270
+INFO:root:Epoch[3] Validation-mse=5.402090
+INFO:root:Epoch[3] Validation-rmse=2.315124
+INFO:root:Epoch[4] Train-accuracy=0.999726
+INFO:root:Epoch[4] Train-loss=0.200000
+INFO:root:Epoch[4] Train-cross-entropy=0.000979
+INFO:root:Epoch[4] Train-mae=1.879002
+INFO:root:Epoch[4] Train-mse=5.398880
+INFO:root:Epoch[4] Train-rmse=2.314564
+INFO:root:Epoch[4] Time cost=621.500
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0005.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[4] Validation-accuracy=0.999982
+INFO:root:Epoch[4] Validation-loss=0.200000
+INFO:root:Epoch[4] Validation-cross-entropy=0.000095
+INFO:root:Epoch[4] Validation-mae=1.882317
+INFO:root:Epoch[4] Validation-mse=5.402343
+INFO:root:Epoch[4] Validation-rmse=2.315537
+INFO:root:Epoch[5] Train-accuracy=0.999493
+INFO:root:Epoch[5] Train-loss=0.200000
+INFO:root:Epoch[5] Train-cross-entropy=0.001730
+INFO:root:Epoch[5] Train-mae=1.879015
+INFO:root:Epoch[5] Train-mse=5.398883
+INFO:root:Epoch[5] Train-rmse=2.314621
+INFO:root:Epoch[5] Time cost=622.641
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0006.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[5] Validation-accuracy=0.999982
+INFO:root:Epoch[5] Validation-loss=0.200000
+INFO:root:Epoch[5] Validation-cross-entropy=0.000080
+INFO:root:Epoch[5] Validation-mae=1.882310
+INFO:root:Epoch[5] Validation-mse=5.402193
+INFO:root:Epoch[5] Validation-rmse=2.315218
+INFO:root:Epoch[6] Train-accuracy=0.999813
+INFO:root:Epoch[6] Train-loss=0.200000
+INFO:root:Epoch[6] Train-cross-entropy=0.000627
+INFO:root:Epoch[6] Train-mae=1.879002
+INFO:root:Epoch[6] Train-mse=5.398951
+INFO:root:Epoch[6] Train-rmse=2.314422
+INFO:root:Epoch[6] Time cost=621.466
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0007.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[6] Validation-accuracy=0.999973
+INFO:root:Epoch[6] Validation-loss=0.200000
+INFO:root:Epoch[6] Validation-cross-entropy=0.000113
+INFO:root:Epoch[6] Validation-mae=1.882311
+INFO:root:Epoch[6] Validation-mse=5.402335
+INFO:root:Epoch[6] Validation-rmse=2.315228
+INFO:root:Epoch[7] Train-accuracy=0.999783
+INFO:root:Epoch[7] Train-loss=0.200000
+INFO:root:Epoch[7] Train-cross-entropy=0.000899
+INFO:root:Epoch[7] Train-mae=1.879018
+INFO:root:Epoch[7] Train-mse=5.398981
+INFO:root:Epoch[7] Train-rmse=2.314499
+INFO:root:Epoch[7] Time cost=622.758
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0008.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[7] Validation-accuracy=1.000000
+INFO:root:Epoch[7] Validation-loss=0.200000
+INFO:root:Epoch[7] Validation-cross-entropy=0.000031
+INFO:root:Epoch[7] Validation-mae=1.882329
+INFO:root:Epoch[7] Validation-mse=5.402273
+INFO:root:Epoch[7] Validation-rmse=2.315297
+INFO:root:Epoch[8] Train-accuracy=0.999890
+INFO:root:Epoch[8] Train-loss=0.200000
+INFO:root:Epoch[8] Train-cross-entropy=0.000365
+INFO:root:Epoch[8] Train-mae=1.879023
+INFO:root:Epoch[8] Train-mse=5.399035
+INFO:root:Epoch[8] Train-rmse=2.314501
+INFO:root:Epoch[8] Time cost=621.831
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0009.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[8] Validation-accuracy=1.000000
+INFO:root:Epoch[8] Validation-loss=0.200000
+INFO:root:Epoch[8] Validation-cross-entropy=0.000024
+INFO:root:Epoch[8] Validation-mae=1.882265
+INFO:root:Epoch[8] Validation-mse=5.402157
+INFO:root:Epoch[8] Validation-rmse=2.315312
+INFO:root:Epoch[9] Train-accuracy=0.999893
+INFO:root:Epoch[9] Train-loss=0.200000
+INFO:root:Epoch[9] Train-cross-entropy=0.000405
+INFO:root:Epoch[9] Train-mae=1.878980
+INFO:root:Epoch[9] Train-mse=5.398864
+INFO:root:Epoch[9] Train-rmse=2.314357
+INFO:root:Epoch[9] Time cost=623.455
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0010.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[9] Validation-accuracy=0.999991
+INFO:root:Epoch[9] Validation-loss=0.200000
+INFO:root:Epoch[9] Validation-cross-entropy=0.000063
+INFO:root:Epoch[9] Validation-mae=1.882334
+INFO:root:Epoch[9] Validation-mse=5.402415
+INFO:root:Epoch[9] Validation-rmse=2.315474
+INFO:root:Epoch[10] Train-accuracy=0.999939
+INFO:root:Epoch[10] Train-loss=0.200000
+INFO:root:Epoch[10] Train-cross-entropy=0.000284
+INFO:root:Epoch[10] Train-mae=1.878986
+INFO:root:Epoch[10] Train-mse=5.398904
+INFO:root:Epoch[10] Train-rmse=2.314336
+INFO:root:Epoch[10] Time cost=621.819
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0011.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[10] Validation-accuracy=1.000000
+INFO:root:Epoch[10] Validation-loss=0.200000
+INFO:root:Epoch[10] Validation-cross-entropy=0.000025
+INFO:root:Epoch[10] Validation-mae=1.882338
+INFO:root:Epoch[10] Validation-mse=5.402299
+INFO:root:Epoch[10] Validation-rmse=2.315330
+INFO:root:Epoch[11] Train-accuracy=0.999958
+INFO:root:Epoch[11] Train-loss=0.200000
+INFO:root:Epoch[11] Train-cross-entropy=0.000152
+INFO:root:Epoch[11] Train-mae=1.879047
+INFO:root:Epoch[11] Train-mse=5.399137
+INFO:root:Epoch[11] Train-rmse=2.314650
+INFO:root:Epoch[11] Time cost=622.141
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0012.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[11] Validation-accuracy=1.000000
+INFO:root:Epoch[11] Validation-loss=0.200000
+INFO:root:Epoch[11] Validation-cross-entropy=0.000011
+INFO:root:Epoch[11] Validation-mae=1.882270
+INFO:root:Epoch[11] Validation-mse=5.402165
+INFO:root:Epoch[11] Validation-rmse=2.315141
+INFO:root:Epoch[12] Train-accuracy=0.999989
+INFO:root:Epoch[12] Train-loss=0.200000
+INFO:root:Epoch[12] Train-cross-entropy=0.000079
+INFO:root:Epoch[12] Train-mae=1.878994
+INFO:root:Epoch[12] Train-mse=5.398942
+INFO:root:Epoch[12] Train-rmse=2.314641
+INFO:root:Epoch[12] Time cost=621.455
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0013.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[12] Validation-accuracy=1.000000
+INFO:root:Epoch[12] Validation-loss=0.200000
+INFO:root:Epoch[12] Validation-cross-entropy=0.000008
+INFO:root:Epoch[12] Validation-mae=1.882317
+INFO:root:Epoch[12] Validation-mse=5.402358
+INFO:root:Epoch[12] Validation-rmse=2.315540
+INFO:root:Epoch[13] Train-accuracy=0.999992
+INFO:root:Epoch[13] Train-loss=0.200000
+INFO:root:Epoch[13] Train-cross-entropy=0.000056
+INFO:root:Epoch[13] Train-mae=1.879037
+INFO:root:Epoch[13] Train-mse=5.399097
+INFO:root:Epoch[13] Train-rmse=2.314497
+INFO:root:Epoch[13] Time cost=621.786
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0014.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[13] Validation-accuracy=0.999991
+INFO:root:Epoch[13] Validation-loss=0.200000
+INFO:root:Epoch[13] Validation-cross-entropy=0.000021
+INFO:root:Epoch[13] Validation-mae=1.882310
+INFO:root:Epoch[13] Validation-mse=5.402208
+INFO:root:Epoch[13] Validation-rmse=2.315222
+INFO:root:Epoch[14] Train-accuracy=0.999996
+INFO:root:Epoch[14] Train-loss=0.200000
+INFO:root:Epoch[14] Train-cross-entropy=0.000033
+INFO:root:Epoch[14] Train-mae=1.878994
+INFO:root:Epoch[14] Train-mse=5.398977
+INFO:root:Epoch[14] Train-rmse=2.314657
+INFO:root:Epoch[14] Time cost=622.964
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0015.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[14] Validation-accuracy=0.999991
+INFO:root:Epoch[14] Validation-loss=0.200000
+INFO:root:Epoch[14] Validation-cross-entropy=0.000018
+INFO:root:Epoch[14] Validation-mae=1.882311
+INFO:root:Epoch[14] Validation-mse=5.402351
+INFO:root:Epoch[14] Validation-rmse=2.315231
+INFO:root:Epoch[15] Train-accuracy=1.000000
+INFO:root:Epoch[15] Train-loss=0.200000
+INFO:root:Epoch[15] Train-cross-entropy=0.000010
+INFO:root:Epoch[15] Train-mae=1.879020
+INFO:root:Epoch[15] Train-mse=5.399039
+INFO:root:Epoch[15] Train-rmse=2.314379
+INFO:root:Epoch[15] Time cost=621.715
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0016.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[15] Validation-accuracy=1.000000
+INFO:root:Epoch[15] Validation-loss=0.200000
+INFO:root:Epoch[15] Validation-cross-entropy=0.000008
+INFO:root:Epoch[15] Validation-mae=1.882329
+INFO:root:Epoch[15] Validation-mse=5.402281
+INFO:root:Epoch[15] Validation-rmse=2.315299
+INFO:root:Epoch[16] Train-accuracy=0.999996
+INFO:root:Epoch[16] Train-loss=0.200000
+INFO:root:Epoch[16] Train-cross-entropy=0.000023
+INFO:root:Epoch[16] Train-mae=1.878981
+INFO:root:Epoch[16] Train-mse=5.398891
+INFO:root:Epoch[16] Train-rmse=2.314754
+INFO:root:Epoch[16] Time cost=622.628
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0017.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[16] Validation-accuracy=1.000000
+INFO:root:Epoch[16] Validation-loss=0.200000
+INFO:root:Epoch[16] Validation-cross-entropy=0.000011
+INFO:root:Epoch[16] Validation-mae=1.882265
+INFO:root:Epoch[16] Validation-mse=5.402160
+INFO:root:Epoch[16] Validation-rmse=2.315312
+INFO:root:Epoch[17] Train-accuracy=1.000000
+INFO:root:Epoch[17] Train-loss=0.200000
+INFO:root:Epoch[17] Train-cross-entropy=0.000010
+INFO:root:Epoch[17] Train-mae=1.879010
+INFO:root:Epoch[17] Train-mse=5.399025
+INFO:root:Epoch[17] Train-rmse=2.314735
+INFO:root:Epoch[17] Time cost=621.361
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0018.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[17] Validation-accuracy=1.000000
+INFO:root:Epoch[17] Validation-loss=0.200000
+INFO:root:Epoch[17] Validation-cross-entropy=0.000012
+INFO:root:Epoch[17] Validation-mae=1.882334
+INFO:root:Epoch[17] Validation-mse=5.402421
+INFO:root:Epoch[17] Validation-rmse=2.315475
+INFO:root:Epoch[18] Train-accuracy=0.999996
+INFO:root:Epoch[18] Train-loss=0.200000
+INFO:root:Epoch[18] Train-cross-entropy=0.000016
+INFO:root:Epoch[18] Train-mae=1.879007
+INFO:root:Epoch[18] Train-mse=5.399020
+INFO:root:Epoch[18] Train-rmse=2.314547
+INFO:root:Epoch[18] Time cost=622.714
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0019.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[18] Validation-accuracy=1.000000
+INFO:root:Epoch[18] Validation-loss=0.200000
+INFO:root:Epoch[18] Validation-cross-entropy=0.000007
+INFO:root:Epoch[18] Validation-mae=1.882338
+INFO:root:Epoch[18] Validation-mse=5.402304
+INFO:root:Epoch[18] Validation-rmse=2.315331
+INFO:root:Epoch[19] Train-accuracy=1.000000
+INFO:root:Epoch[19] Train-loss=0.200000
+INFO:root:Epoch[19] Train-cross-entropy=0.000011
+INFO:root:Epoch[19] Train-mae=1.879032
+INFO:root:Epoch[19] Train-mse=5.399079
+INFO:root:Epoch[19] Train-rmse=2.314660
+INFO:root:Epoch[19] Time cost=621.518
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0020.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[19] Validation-accuracy=1.000000
+INFO:root:Epoch[19] Validation-loss=0.200000
+INFO:root:Epoch[19] Validation-cross-entropy=0.000009
+INFO:root:Epoch[19] Validation-mae=1.882270
+INFO:root:Epoch[19] Validation-mse=5.402166
+INFO:root:Epoch[19] Validation-rmse=2.315141
+INFO:root:Epoch[20] Train-accuracy=1.000000
+INFO:root:Epoch[20] Train-loss=0.200000
+INFO:root:Epoch[20] Train-cross-entropy=0.000005
+INFO:root:Epoch[20] Train-mae=1.879002
+INFO:root:Epoch[20] Train-mse=5.398999
+INFO:root:Epoch[20] Train-rmse=2.314400
+INFO:root:Epoch[20] Time cost=622.649
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0021.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[20] Validation-accuracy=1.000000
+INFO:root:Epoch[20] Validation-loss=0.200000
+INFO:root:Epoch[20] Validation-cross-entropy=0.000005
+INFO:root:Epoch[20] Validation-mae=1.882317
+INFO:root:Epoch[20] Validation-mse=5.402359
+INFO:root:Epoch[20] Validation-rmse=2.315540
+INFO:root:Epoch[21] Train-accuracy=0.999844
+INFO:root:Epoch[21] Train-loss=0.200000
+INFO:root:Epoch[21] Train-cross-entropy=0.000762
+INFO:root:Epoch[21] Train-mae=1.879013
+INFO:root:Epoch[21] Train-mse=5.399001
+INFO:root:Epoch[21] Train-rmse=2.314354
+INFO:root:Epoch[21] Time cost=621.455
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0022.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[21] Validation-accuracy=0.999973
+INFO:root:Epoch[21] Validation-loss=0.200000
+INFO:root:Epoch[21] Validation-cross-entropy=0.000071
+INFO:root:Epoch[21] Validation-mae=1.882310
+INFO:root:Epoch[21] Validation-mse=5.402205
+INFO:root:Epoch[21] Validation-rmse=2.315221
+INFO:root:Epoch[22] Train-accuracy=0.999981
+INFO:root:Epoch[22] Train-loss=0.200000
+INFO:root:Epoch[22] Train-cross-entropy=0.000070
+INFO:root:Epoch[22] Train-mae=1.879020
+INFO:root:Epoch[22] Train-mse=5.399046
+INFO:root:Epoch[22] Train-rmse=2.314445
+INFO:root:Epoch[22] Time cost=623.211
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0023.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[22] Validation-accuracy=0.999991
+INFO:root:Epoch[22] Validation-loss=0.200000
+INFO:root:Epoch[22] Validation-cross-entropy=0.000019
+INFO:root:Epoch[22] Validation-mae=1.882311
+INFO:root:Epoch[22] Validation-mse=5.402351
+INFO:root:Epoch[22] Validation-rmse=2.315231
+INFO:root:Epoch[23] Train-accuracy=0.999985
+INFO:root:Epoch[23] Train-loss=0.200000
+INFO:root:Epoch[23] Train-cross-entropy=0.000063
+INFO:root:Epoch[23] Train-mae=1.879018
+INFO:root:Epoch[23] Train-mse=5.399031
+INFO:root:Epoch[23] Train-rmse=2.314640
+INFO:root:Epoch[23] Time cost=621.473
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0024.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[23] Validation-accuracy=1.000000
+INFO:root:Epoch[23] Validation-loss=0.200000
+INFO:root:Epoch[23] Validation-cross-entropy=0.000010
+INFO:root:Epoch[23] Validation-mae=1.882329
+INFO:root:Epoch[23] Validation-mse=5.402280
+INFO:root:Epoch[23] Validation-rmse=2.315299
+INFO:root:Epoch[24] Train-accuracy=0.999985
+INFO:root:Epoch[24] Train-loss=0.200000
+INFO:root:Epoch[24] Train-cross-entropy=0.000055
+INFO:root:Epoch[24] Train-mae=1.878965
+INFO:root:Epoch[24] Train-mse=5.398855
+INFO:root:Epoch[24] Train-rmse=2.314506
+INFO:root:Epoch[24] Time cost=621.722
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0025.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[24] Validation-accuracy=1.000000
+INFO:root:Epoch[24] Validation-loss=0.200000
+INFO:root:Epoch[24] Validation-cross-entropy=0.000021
+INFO:root:Epoch[24] Validation-mae=1.882265
+INFO:root:Epoch[24] Validation-mse=5.402158
+INFO:root:Epoch[24] Validation-rmse=2.315312
+INFO:root:Epoch[25] Train-accuracy=0.999996
+INFO:root:Epoch[25] Train-loss=0.200000
+INFO:root:Epoch[25] Train-cross-entropy=0.000039
+INFO:root:Epoch[25] Train-mae=1.879020
+INFO:root:Epoch[25] Train-mse=5.399035
+INFO:root:Epoch[25] Train-rmse=2.314526
+INFO:root:Epoch[25] Time cost=621.717
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0026.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[25] Validation-accuracy=1.000000
+INFO:root:Epoch[25] Validation-loss=0.200000
+INFO:root:Epoch[25] Validation-cross-entropy=0.000009
+INFO:root:Epoch[25] Validation-mae=1.882334
+INFO:root:Epoch[25] Validation-mse=5.402421
+INFO:root:Epoch[25] Validation-rmse=2.315475
+INFO:root:Epoch[26] Train-accuracy=1.000000
+INFO:root:Epoch[26] Train-loss=0.200000
+INFO:root:Epoch[26] Train-cross-entropy=0.000015
+INFO:root:Epoch[26] Train-mae=1.879000
+INFO:root:Epoch[26] Train-mse=5.398972
+INFO:root:Epoch[26] Train-rmse=2.314681
+INFO:root:Epoch[26] Time cost=621.729
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0027.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[26] Validation-accuracy=1.000000
+INFO:root:Epoch[26] Validation-loss=0.200000
+INFO:root:Epoch[26] Validation-cross-entropy=0.000011
+INFO:root:Epoch[26] Validation-mae=1.882338
+INFO:root:Epoch[26] Validation-mse=5.402302
+INFO:root:Epoch[26] Validation-rmse=2.315331
+INFO:root:Epoch[27] Train-accuracy=0.999989
+INFO:root:Epoch[27] Train-loss=0.200000
+INFO:root:Epoch[27] Train-cross-entropy=0.000036
+INFO:root:Epoch[27] Train-mae=1.879033
+INFO:root:Epoch[27] Train-mse=5.399128
+INFO:root:Epoch[27] Train-rmse=2.314477
+INFO:root:Epoch[27] Time cost=622.869
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0028.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[27] Validation-accuracy=0.999991
+INFO:root:Epoch[27] Validation-loss=0.200000
+INFO:root:Epoch[27] Validation-cross-entropy=0.000030
+INFO:root:Epoch[27] Validation-mae=1.882270
+INFO:root:Epoch[27] Validation-mse=5.402163
+INFO:root:Epoch[27] Validation-rmse=2.315140
+INFO:root:Epoch[28] Train-accuracy=0.999912
+INFO:root:Epoch[28] Train-loss=0.200000
+INFO:root:Epoch[28] Train-cross-entropy=0.000352
+INFO:root:Epoch[28] Train-mae=1.879015
+INFO:root:Epoch[28] Train-mse=5.399011
+INFO:root:Epoch[28] Train-rmse=2.314517
+INFO:root:Epoch[28] Time cost=621.914
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0029.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[28] Validation-accuracy=0.999716
+INFO:root:Epoch[28] Validation-loss=0.200000
+INFO:root:Epoch[28] Validation-cross-entropy=0.000764
+INFO:root:Epoch[28] Validation-mae=1.882317
+INFO:root:Epoch[28] Validation-mse=5.402293
+INFO:root:Epoch[28] Validation-rmse=2.315526
+INFO:root:Epoch[29] Train-accuracy=0.999977
+INFO:root:Epoch[29] Train-loss=0.200000
+INFO:root:Epoch[29] Train-cross-entropy=0.000122
+INFO:root:Epoch[29] Train-mae=1.879011
+INFO:root:Epoch[29] Train-mse=5.398966
+INFO:root:Epoch[29] Train-rmse=2.314731
+INFO:root:Epoch[29] Time cost=623.023
+INFO:root:Saved checkpoint to "/home/experiments/GrassWeeds/GW5/Jake/resnet18/checkpoint//checkpoint-0030.params"
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): hooks.slack.com
+DEBUG:urllib3.connectionpool:https://hooks.slack.com:443 "POST /services/T95GU3LRJ/B95Q1EECV/3nv5lShvUHSGKPuvdND9gbjm HTTP/1.1" 200 22
+INFO:root:Epoch[29] Validation-accuracy=0.999991
+INFO:root:Epoch[29] Validation-loss=0.200000
+INFO:root:Epoch[29] Validation-cross-entropy=0.000017
+INFO:root:Epoch[29] Validation-mae=1.882310
+INFO:root:Epoch[29] Validation-mse=5.402210
+INFO:root:Epoch[29] Validation-rmse=2.315222
+INFO:root:('accuracy', 0.99999111205915814)
