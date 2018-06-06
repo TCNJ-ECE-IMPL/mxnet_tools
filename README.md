@@ -1,2 +1,2 @@
 # mxnet_tools
-Tools for mxnet
+Tools/utilities for mxnet.
