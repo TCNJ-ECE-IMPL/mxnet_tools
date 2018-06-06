@@ -1,6 +1,6 @@
 # plot_progress
 
-Plot_progress takes training and validation accuracy and loss from a network/model log file and plots those values. The intention is to showcase the evolution of networks/models through data analysis. Comparison of accuracies will illustrate whether a network is underfitting or overfitting data, and offer next steps as to how it should be treated.
+Plot_progress takes training and validation accuracy and loss from a network/model's mxnet log file and plots those values. The intention is to showcase the evolution of networks/models through data analysis. Comparison of accuracies will illustrate whether a network is underfitting or overfitting data, and offer next steps as to how it should be treated.
 
 # Usage
 
