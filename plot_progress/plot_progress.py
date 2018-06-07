@@ -38,7 +38,9 @@ trnl = np.array([])
 
 while (1):
     x = fd.readline()
-    if x == "": # Stop reading at end of file
+    
+    # Stop reading at end of file
+    if x == "": 
         break
     
     # Search for validation accuracy strings and append values to "tsta" array
@@ -83,7 +85,7 @@ num_epoch = max( len(tsta), len(tstl), len(trna), len(trnl) )
 # 12 x 8 inch figure size
 plt.rcParams["figure.figsize"] = (12,8)
 
-# Validation vs Training Accuracy
+# Validation vs Training Accuracy Graph
 ax1 = plt.subplot(211)
 ax1.plot(range(1,num_epoch+1), trna, 'o--')
 ax1.plot(range(1,num_epoch+1), tsta, 'o-')
@@ -91,7 +93,7 @@ ax1.set_xlabel('Epoch')
 ax1.set_ylabel('Accuracy')
 ax1.tick_params('y')
 
-# Place legend based on position argument
+# Place legend based on position argument (placed in relation to accuracy graph)
 if (mode_lgnd == 'C'):
     plt.legend(('Train','Validation'), loc='center', bbox_to_anchor=(0.5, -0.25), shadow=True)
 elif (mode_lgnd == 'N'):
@@ -108,7 +110,7 @@ elif (mode_lgnd == 'NW'):
 elif (mode_lgnd != 'S' and mode_lgnd != 'SE' and mode_lgnd != 'SW'):
     plt.legend(('Train','Validation'), loc='center', bbox_to_anchor=(0.5, -0.25), shadow=True)
 
-# Validation vs Training Loss
+# Validation vs Training Loss Graph
 ax2 = plt.subplot(212, sharex=ax1)
 ax2.semilogy(range(1,num_epoch+1), tstl, 'o-')
 ax2.semilogy(range(1,num_epoch+1), trnl, 'o--')
@@ -116,7 +118,7 @@ ax2.set_xlabel('Epoch')
 ax2.set_ylabel('Cross-Entropy Loss')
 ax2.tick_params('y')
 
-# Place legend based on position argument
+# Place legend based on position argument (placed in relation to loss graph)
 if (mode_lgnd == 'S'):
     plt.legend(('Train','Validation'), loc='center', bbox_to_anchor=(0.5, 0.1), shadow=True)
 elif (mode_lgnd == 'SE'):
