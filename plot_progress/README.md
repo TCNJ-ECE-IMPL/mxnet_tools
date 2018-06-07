@@ -17,9 +17,9 @@ optional arguments:
   -k POSITION  add plot legend (Position: C,N,S,E,W,NW,NE,SE,SW)
   -t           add PyPlot interactive toolbar
 ```
-### Position
+### Legend Position
 
-Plot legend will be placed in one of 9 locations corresponding to the input supplied: "C" for Center, "N" for North, and so on.
+Plot legend will be placed in one of 9 locations corresponding to the input supplied for the "-k" argument: "C" for Center, "N" for North, and so on.
 
 # Plot Example
 ![Example Figure](plot_progress_fig.png)
