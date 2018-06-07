@@ -19,7 +19,7 @@ optional arguments:
 ```
 ### Legend Position
 
-Plot legend will be placed in one of 9 locations corresponding to the input supplied for the "-k" argument: "C" for Center, "N" for North, and so on.
+Plot legend will be placed in one of 9 locations corresponding to the input supplied for the "-k" argument: "C" for Center, "N" for North, and so on. This assures that the legend does not overlap any part of either graph.
 
 # Plot Example
 ![Example Figure](plot_progress_fig.png)
